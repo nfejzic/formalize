@@ -6,7 +6,6 @@ fn render_math(input: &str) -> String {
 
     let mathml = MathMl::from(ascii_math)
         .with_attr([MathMlAttr::Display(DisplayAttr::Block)])
-        .map(|e| Row::from(e))
         .write(&mut BufMathMlWriter::default())
         .map(Writer::finish)
         .unwrap();
