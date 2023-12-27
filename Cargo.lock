@@ -28,9 +28,9 @@ dependencies = [
 
 [[package]]
 name = "alemat"
-version = "0.7.0"
+version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "99c81cb1ef46bec2ca76815152ded127a06772c858512fb89b0e4cf9b0dd54cb"
+checksum = "dd7e2d7078d450141ac25e1db3bb458e8646b68ac9fedc00fbb15a69425d44c5"
 
 [[package]]
 name = "anyhow"
@@ -817,9 +817,9 @@ dependencies = [
 
 [[package]]
 name = "mathemascii"
-version = "0.3.1"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81101c3a4a91bf1feb21b2d0387f459c8d9697f169aafa1f026ee544e31ec832"
+checksum = "5edd9e0cc9e4404ea4e2b9da76dc78c6193516ac3f9276c7151e7e2e87eae24f"
 dependencies = [
  "alemat",
 ]

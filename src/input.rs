@@ -1,4 +1,4 @@
-use alemat::{elements::grouping::Row, BufMathMlWriter, DisplayAttr, MathMl, MathMlAttr, Writer};
+use alemat::{BufMathMlWriter, DisplayAttr, MathMl, MathMlAttr, Writer};
 use leptos::{ev::Event, event_target_value, IntoView, SignalUpdate, WriteSignal};
 
 fn render_math(input: &str) -> String {
